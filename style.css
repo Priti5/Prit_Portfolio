@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+	
+
+}
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	backdrop-filter: blur(20px);
+	z-index: 5;
+	background-color: brown;
+
+}
+.navbar-brand{
+	color: whitesmoke;
+}
+.mymenus{
+	color: whitesmoke;
+}
+
+.mymenus:hover{
+	text-decoration: underline 2px solid black;
+	color: whitesmoke;
+
+}
+.allsections{
+	position: relative;
+	top: 80px;
+	width: 100%;
+}
+
+.section{
+	height: 100vh;
+	width: 100%;
+	border: none;
+}
+h1{
+	text-align: center;
+}
+html{
+	scroll-behavior: smooth;
+}
+.home-section{
+	border: none;
+	background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--O0u1bNHs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://miro.medium.com/max/1400/0%2APXf5ge7QCN9Ga_CL.gif);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: 90% 40%;
+	background-size: 30%;
+	
+	
+}
+.myinfo{
+	height: 450px;
+	width: 50%;
+	margin: 10% 5%;
+}
+.info-home{
+	font-size: 30px;
+	font-family: Elephant;
+}
+.myname{
+	font-size: 50px ;
+	color: royalblue;
+}
+.rsm{
+	height: 50px;
+	width: 120px;
+
+	background-color: royalblue;
+	border-radius: 10px;
+	color: whitesmoke;
+	margin-left: 5%;
+}
+.skill-section{
+	height: 600px;
+	border: none;
+	padding: 20px;
+
+}
+.rows td{
+	padding: 20px;
+}
+.tb{
+	margin-top: 50px;
+}
+.skillhead{
+	font-size: 25px;
+	margin-bottom: 30px;
+	font-family: Arial Black;
+	text-decoration: underline 3px solid black;
+}
+.skillset{
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+.rows td div{
+	height: 200px;
+	border-radius: 20px;
+}
+.rows td div:hover{
+	box-shadow: 0px 0px 10px grey;
+}
+.d{
+	padding: 20px;
+}
+
+.about-section{
+	height: 500px;
+	width: 100%;
+	display: flex;
+}
+.carrer{
+	padding: 60px;
+	margin-top: 30px;
+}
+.tb{
+	height: 90vh;
+	width: 100%;
+	padding: 20px;
+}
+
+.project-section{
+	border: none;
+	padding: 20px;
+	margin-top: 20%;
+	
+
+}
+.all-projects{
+	margin-top: 40px;
+}
+.card{
+	padding: 20px;
+}
+
+.cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-style: italic;
+
+
+    }
+    
+    .sect {
+        width: 45%;
+        padding: 20px;
+        margin-left: 100px;
+        
+    }
